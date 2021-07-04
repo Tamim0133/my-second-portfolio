@@ -1,12 +1,15 @@
 body{font-family: 'Roboto', sans-serif;margin: 0%;padding: 0%;
-    max-width: 100%;
-min-width: 88%;}
-.first {margin: 0%;
-    padding-left: 3% ;
-display: flex;
+}
+.first {padding: 5%; margin: 1%;
+    display: flex;
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
-width: 100%;}
+}
+.second{padding: 5%; margin: 1%;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right}
 .orange{color: orange;} 
 h1{font-size: 50px;}
 .gradiant{background-image: linear-gradient(orange,tomato);
@@ -18,14 +21,23 @@ text-align: center;
 a{text-decoration: none;
 color: white;
 font-weight: 800px;}
+.top{width: 50%; padding-left: 5%;}
+.middle{width: 50%; padding-left: 5%;}
 
-.second{ margin: 0%;
-    padding-left: 3% ;
-display: flex;
-background-image: url(images/dream-bg.png);
-background-repeat: no-repeat;
-width: 100%;
-background-position: right}
-.middle{padding-left: 5%; }
 div img{width: 480px;}
+.final{display:flex}
+.third{background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;}
+.bottom{
+border-left: 5px solid ;
+border-radius: 3%;
+padding: 5%;
+margin: 5%;
+box-shadow: 10px 10px 40px gray;
+}
+#bottom-two{border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;}
+#bottom-one{border-image: linear-gradient(orange,red);
+border-image-slice: 1;}
+footer{text-align: center;}
 
