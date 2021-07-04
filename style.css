@@ -1,15 +1,14 @@
-body{font-family: 'Roboto', sans-serif;
-margin: 0%;
-padding: 0%;}
-.first{
-    padding-left: 5%;
-    display: flex;
-    background-image: url(images/top-banner.png);
-
+body{font-family: 'Roboto', sans-serif;margin: 0%;padding: 0%;
+    max-width: 100%;
+min-width: 88%;}
+.first {margin: 0%;
+    padding-left: 3% ;
+display: flex;
+background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
-width: 88%;}
-.orange{color: orange;}
-h1{font: weight 700px;}
+width: 100%;}
+.orange{color: orange;} 
+h1{font-size: 50px;}
 .gradiant{background-image: linear-gradient(orange,tomato);
 width: 100px;
 padding: 2%;
@@ -19,4 +18,14 @@ text-align: center;
 a{text-decoration: none;
 color: white;
 font-weight: 800px;}
-div img{width: 88%;position: right;}
+
+.second{ margin: 0%;
+    padding-left: 3% ;
+display: flex;
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+width: 100%;
+background-position: right}
+.middle{padding-left: 5%; }
+div img{width: 480px;}
+
