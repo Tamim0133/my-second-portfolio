@@ -1,0 +1,22 @@
+body{font-family: 'Roboto', sans-serif;
+margin: 0%;
+padding: 0%;}
+.first{
+    padding-left: 5%;
+    display: flex;
+    background-image: url(images/top-banner.png);
+
+background-repeat: no-repeat;
+width: 88%;}
+.orange{color: orange;}
+h1{font: weight 700px;}
+.gradiant{background-image: linear-gradient(orange,tomato);
+width: 100px;
+padding: 2%;
+border-radius: 8%;
+text-align: center;
+}
+a{text-decoration: none;
+color: white;
+font-weight: 800px;}
+div img{width: 88%;position: right;}
